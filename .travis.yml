@@ -1,4 +1,4 @@
 language: java
 before_script: ant ivy
-script: ant resolve
+script: ant compile
 
