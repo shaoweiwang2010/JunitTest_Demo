@@ -23,7 +23,7 @@
 	</path>
 
 	<!-- ivy start -->
-	<target name="resolve" description="retrieve dependencies with ivy">
+	<target name="resolve" depends = "ivy" description="retrieve dependencies with ivy">
 		<echo message="Getting dependencies..." />
 		<ivy:retrieve />
 
