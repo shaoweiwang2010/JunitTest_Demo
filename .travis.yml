@@ -1,4 +1,6 @@
 language: java
 before_script: ant ivy
+before_script:
+   - sudo apt-get install ant-optional
 script: ant junit
 
